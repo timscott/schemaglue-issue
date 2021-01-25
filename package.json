@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "license": "ISC",
+  "author": "Tim Scott <tscott@lunaversesoftware.com> (http://timscott.github.io)",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "graphql-middleware": "^6.0.2",
+    "graphql-playground-middleware-express": "^1.7.22",
+    "graphql-tools": "^7.0.2",
+    "import-modules": "^2.1.0",
+    "schemaglue": "^4.0.5"
+  },
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.4.1"
+  }
+}
