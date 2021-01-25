@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import graphqlRouter from './graphqlRouter';
+import graphqlRouter from './graphqlRouter.js';
 
 const port = 6677;
 

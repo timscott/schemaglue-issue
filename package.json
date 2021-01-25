@@ -1,15 +1,15 @@
 {
   "name": "demo",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
-    "start": "node bin/index.js"
+    "start": "node bin/server.js"
   },
   "license": "ISC",
   "author": "Tim Scott <tscott@lunaversesoftware.com> (http://timscott.github.io)",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
     "graphql": "^15.4.0",
